@@ -1,0 +1,11 @@
+console.log(carrito)      
+console.log("hasta ahora hay " ,carrito.length, " productos en el carrito")
+
+const nuevoProducto = {
+    articulo: "pala",
+    precio: 800,
+    cantidad: 1
+}
+carrito[carrito.length] = nuevoProducto;
+console.log("ahora que se agrego un producto, la cantidad total de productos es: ",carrito.length)
+console.log(carrito)
